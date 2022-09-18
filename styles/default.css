@@ -1,0 +1,241 @@
+@import url('../styles/fonts.css');
+
+
+body {
+  font-family: GilroyRegular;
+  margin: 0;
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+.main-content-wrapper {
+  max-width: 943.61px;
+  margin: 0 auto;
+}
+
+
+.header-wrapper nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 87.94px;
+  border-bottom: 1px solid #828282;
+}
+
+
+.header-wrapper a {
+  font-family: GilroyBold;
+  color: #828282;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.header-wrapper a:first-child {
+  color: #070707;
+}
+
+
+.header-wrapper a:hover {
+  color: #070707;
+}
+
+.header-wrapper a:first-child:hover {
+  color: #828282;
+}
+
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 188.5px;
+  box-sizing: border-box;
+  padding-bottom: 49.67px;
+  text-align: left;
+}
+
+
+h1 {
+  font-size: 47.3392px;
+  line-height: 59px;
+  margin: 0;
+}
+
+
+.main-info__title {
+  margin: 0;
+}
+
+
+.main-info__lang-switcher p {
+  font-size: 16px;
+  line-height: 20px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  padding: 10px;
+  margin: -10px;
+  transform-origin: top;
+  font-family: GilroyBold;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main-info__lang-switcher p .lang {
+  color: #828282;
+}
+
+.main-info__lang-switcher p .lang:hover {
+  color: black;
+}
+
+
+.main-info__lang-switcher p .active-lang {
+  color: black;
+}
+
+
+.main-info__lang-switcher p .active-lang:hover {
+  color: #828282;
+}
+
+.about-dev img {
+  margin-bottom: 104.06px;
+}
+
+
+.overview {
+  background-color: #F6F6F6;
+  padding: 120.25px 0 107px 0;
+}
+
+
+h2 {
+  font-family: GilroyBold;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+
+.overview h2 {
+  margin: 0 0 30px 0;
+  font-weight: bold;
+ 
+}
+
+
+.overview p {
+  padding: 50px 0 0 0;
+  margin: 0;
+}
+
+
+.overview p:first-of-type {
+  padding: 0;
+}
+
+
+.skills {
+  padding: 62.78px 0 92.06px 0;
+}
+
+
+.skills__programs {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.skills p {
+  padding: 22.88px 0 69.27px 0;
+}
+
+
+.skills__programs p {
+  padding: 22.03px 0 41.41px 0;
+  margin: 0;
+}
+
+.star {
+  height: 26px;
+  width: 26px;
+  background-image: url(../sources/img/Star\ \(1\).svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.active {
+  height: 26px;
+  width: 26px;
+  background-image: url(../sources/img/Star.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+
+.skills__programs-list p {
+  min-height: 44px;
+}
+
+
+.portfolio {
+  padding-top: 84.71px;
+  background-color: #F6F6F6;
+}
+
+
+.portfolio img {
+  max-width: 936.24px;
+  max-height: 510px;
+}
+
+
+.portfolio a {
+  display: block;
+  padding: 45px 0 100px 0;
+  color: black;
+}
+
+
+.footer-wrap {
+  padding: 115px 0 105px 0;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 342px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+}
+
+
+.footer-wrap h2 {
+  margin: 0;
+}
+
+
+.footer-wrap p {
+  padding: 35px;
+}
+
+
+.btn {
+  display: block;
+  height: 42px;
+  width: 180.5px;
+  background-color: black;
+  border-radius: 40px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: GilroyBold;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 14px;
+}
